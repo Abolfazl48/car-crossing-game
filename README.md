@@ -16,3 +16,4 @@ use arrow keys (up and down) to move the car
 use SPACE to restart the game
 
 # screenshot
+![screenshot 1 ](https://raw.githubusercontent.com/Abolfazl48/car-crossing-game/main/screenshot.PNG)
