@@ -140,8 +140,8 @@ def on_key_down(key):
     #read variables that are outside of function
     global score , player_car , game_status , ltr_random_npc_cars , rtl_random_npc_cars , rtl_npc_car_speed , ltr_npc_car_speed ,player_car_speed
     
-    #press space to restart game
-    if key == keys.SPACE:
+    #press space to restart the game
+    if key == keys.SPACE and game_status == 1 or game_status == 2:
         game_status = 0
         rtl_npc_car_speed = 4
         ltr_npc_car_speed = 4
